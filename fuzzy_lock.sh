@@ -16,4 +16,4 @@ i3lock -i ~/Pictures/screen_locked.png
 rm ~/Pictures/screen_locked.png
 
 # Turn the screen off after a delay.
-# sleep 60; pgrep i3lock && xset dpms force off
+sleep 60; pgrep i3lock && xset dpms force off
